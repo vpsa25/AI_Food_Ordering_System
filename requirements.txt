@@ -1,4 +1,4 @@
-"Python 3.11.9
+Python 3.11.9
 streamlit>=1.40,<2
 pandas>=2.2,<3
 numpy>=1.26,<3
@@ -8,4 +8,4 @@ python-dotenv>=1.0,<2
 sqlalchemy>=2.0,<3
 sentence-transformers>=3,<6
 matplotlib>=3.9,<4
-seaborn>=0.13,<1"
+seaborn>=0.13,<1
