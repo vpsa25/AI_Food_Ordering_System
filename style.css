@@ -1,0 +1,269 @@
+/* ==========================================
+   🤎 ROYAL SPICE HOTEL
+   Luxury Brown & Cream Restaurant Theme
+   ========================================== */
+
+/* Main App */
+.stApp {
+    background:
+        linear-gradient(
+            135deg,
+            #f8f1e7 0%,
+            #efe0ce 50%,
+            #f7eadb 100%
+        );
+}
+
+
+/* Main Title */
+.main-title {
+    color: #4a2c1d !important;
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* Subtitle */
+.subtitle {
+    color: #795548;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+
+/* Section Titles */
+.section-title {
+    color: #5a3825 !important;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+
+/* Normal Text */
+p {
+    color: #5d4037;
+    font-size: 16px;
+}
+
+
+/* Food Cards */
+.food-card {
+    background: rgba(255, 253, 249, 0.95);
+
+    padding: 25px;
+
+    border-radius: 22px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #d8b99a;
+
+    box-shadow:
+        0 8px 22px rgba(78, 52, 37, 0.12);
+
+    transition: all 0.3s ease;
+}
+
+
+/* Food Card Hover */
+.food-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #b8793a;
+
+    box-shadow:
+        0 14px 30px rgba(78, 52, 37, 0.18);
+}
+
+
+/* Food Names */
+.food-name {
+    color: #5a3825;
+
+    font-size: 23px;
+
+    font-weight: 800;
+}
+
+
+/* Prices */
+.price {
+    color: #a7652b;
+
+    font-size: 20px;
+
+    font-weight: 800;
+}
+
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(
+        90deg,
+        #6b4226,
+        #9a6437
+    );
+
+    color: white;
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 10px 22px;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Button Hover */
+.stButton > button:hover {
+    background: linear-gradient(
+        90deg,
+        #4a2c1d,
+        #7b4b2a
+    );
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 18px rgba(90, 56, 37, 0.25);
+}
+
+
+/* Search Box */
+.stTextInput input {
+    background: #fffdf9;
+
+    color: #4a2c1d;
+
+    border: 2px solid #c9a27e;
+
+    border-radius: 12px;
+
+    padding: 12px;
+}
+
+
+/* Search Focus */
+.stTextInput input:focus {
+    border-color: #8b5e3c;
+
+    box-shadow:
+        0 0 8px rgba(139, 94, 60, 0.18);
+}
+
+
+/* Select Box */
+.stSelectbox div[data-baseweb="select"] {
+    background: #fffdf9;
+
+    border-radius: 12px;
+
+    border: 2px solid #c9a27e;
+}
+
+
+/* AI Box */
+.ai-box {
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf3,
+            #ead7c1
+        );
+
+    padding: 30px;
+
+    border-radius: 24px;
+
+    border: 2px solid #c49a6c;
+
+    box-shadow:
+        0 10px 25px rgba(78, 52, 37, 0.13);
+
+    margin-top: 18px;
+}
+
+
+/* Cart / Bill Box */
+.bill-box {
+    background: #fffdf9;
+
+    padding: 30px;
+
+    border-radius: 24px;
+
+    border: 2px solid #d3ad87;
+
+    box-shadow:
+        0 10px 25px rgba(78, 52, 37, 0.13);
+}
+
+
+/* Metric Boxes */
+[data-testid="stMetric"] {
+    background: #fffdf9;
+
+    padding: 20px;
+
+    border-radius: 18px;
+
+    border: 1px solid #d8b99a;
+
+    box-shadow:
+        0 6px 18px rgba(78, 52, 37, 0.10);
+}
+
+
+/* Metric Text */
+[data-testid="stMetricValue"] {
+    color: #5a3825 !important;
+}
+
+
+/* Divider */
+hr {
+    border: none;
+
+    border-top: 2px solid #d8b99a;
+
+    margin: 28px 0;
+}
+
+
+/* Alerts */
+.stAlert {
+    border-radius: 14px;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+
+    color: #6b4226;
+
+    padding: 30px;
+
+    margin-top: 35px;
+
+    font-size: 16px;
+}
+
+
+/* Small Gold Accent */
+.footer small {
+    color: #9a6437;
+}
